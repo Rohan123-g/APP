@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Shop - Crocs</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f1f3f6;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.image-box {
+    flex: 1;
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.image-box img:hover {
+    transform: scale(1.05);
+}
+
+.details {
+    flex: 2;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.brand {
+    color: #777;
+    margin: 5px 0 15px;
+}
+
+.price {
+    font-size: 28px;
+    color: #388e3c;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.discount {
+    color: #388e3c;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.rating {
+    background: #388e3c;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.specs {
+    margin-top: 20px;
+}
+
+.specs li {
+    margin-bottom: 8px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 14px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+.cart {
+    background-color: #ff9f00;
+    color: white;
+}
+
+.buy {
+    background-color: #fb641b;
+    color: white;
+}
+
+.desc {
+    margin-top: 30px;
+    line-height: 1.6;
+    color: #444;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">My Shop</div>
+
+<div class="container">
+
+<!-- Image -->
+<div class="image-box">
+    <img src="img/sl1.jpg" alt="Crocs Clogs">
+</div>
+
+<!-- Details -->
+<div class="details">
+    <div class="title">Crocs Classic Clogs (Unisex)</div>
+    <div class="brand">by Crocs</div>
+
+    <div>
+        <span class="price">₹599</span>
+        <span class="old-price">₹999</span>
+        <span class="discount">43% off</span>
+    </div>
+
+    <div style="color: green; margin-top: 8px;">In Stock</div>
+
+    <div class="rating">4.5 ★</div>
+
+    <!-- Specs -->
+    <ul class="specs">
+        <li>Material: Croslite Foam</li>
+        <li>Fit: Relaxed, Lightweight</li>
+        <li>Closure Type: Slip-on</li>
+        <li>Water Friendly: Yes</li>
+        <li>Ideal For: Casual & Daily Wear</li>
+    </ul>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button class="btn cart" onclick="addToCart()">Add to Cart</button>
+        <button class="btn buy" onclick="buyNow()">Buy Now</button>
+    </div>
+
+    <!-- Description -->
+    <div class="desc">
+        <h3>Product Description</h3>
+        <p>
+            Stay comfortable all day with Crocs Classic Clogs. Designed with
+            lightweight Croslite material, these clogs provide superior comfort
+            and durability, perfect for everyday wear.
+        </p>
+    </div>
+
+</div>
+
+</div>
+
+<script>
+function addToCart() {
+    alert("Item added to cart!");
+}
+
+function buyNow() {
+    alert("Proceeding to checkout...");
+}
+</script>
+
+</body>
+</html>
