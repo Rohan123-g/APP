@@ -1,6 +1,6 @@
 # My Online Shopping Website
 
-This is a simple online shopping website project using HTML,CSS,Java Script...etc.
+This is a simple online shopping website project using HTML , CSS , Java Script ,... etc.
 It shows products like Mobile Phone,Laptop,Shoes and other items with images and basic details.
 _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _
 
@@ -62,4 +62,4 @@ Home Page
     - My friends
     - Documentation from GitHub
 
-   Special thanks to all who helped in learning and building this project.
+   Special thanks to all who helped in learning and building this Website.
