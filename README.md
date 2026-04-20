@@ -14,32 +14,32 @@ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _
 
   ## Technologies used:-
 
-  (a) FrontEnd Technologies(GUI):- HTML,CSS,BOOTSTRAP
-  (b) BackEND(DATABASE):- MYSQL
-  (c) Server Side Script:- PHP
-  (d) Client Side Script:- Java Script,Angular JS
+  - FrontEnd Technologies(GUI):- HTML,CSS,BOOTSTRAP
+  - BackEND(DATABASE):- MYSQL
+  - Server Side Script:- PHP
+  - Client Side Script:- Java Script,Angular JS
 _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _
 
   ## Flow Chart Of My Project
 
   Start
-  ↓
+  /-
 Open Website (index.html)
-  ↓
+  /-
 Display Home Page
-  ↓
+  /-
 Show Products (images + Get details option)
-  ↓
+  /-
 User clicks Get Details option
-   ↓         
+   /-       
 Show Product images with  
 Details of Product     
-   ↓            
+   /-            
 User goes back
-   ↓
+   /-
 Back to    
 Home Page     
-   ↓          
+   /-        
   End
   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
   
