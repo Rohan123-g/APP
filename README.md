@@ -20,7 +20,7 @@ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _
   - Client Side Script:- Java Script,Angular JS
 _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _
 
-  ## Flow Chart Of My Project
+  ## Flow Chart Of My Website
 
   Start
   /-
