@@ -28,7 +28,8 @@ Open Website (index.html)
   /-
 Display Home Page
   /-
-Show Products (images + Get details option)
+Show Products 
+(images + Get details option)
   /-
 User clicks Get Details option
    /-       
