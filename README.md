@@ -59,7 +59,7 @@ Home Page
     - My college teachers
     - Online tutorial and resources
     - Some YouTube videos
-    - My classmates
+    - My friends
     - Documentation from GitHub
 
    Special thanks to all who helped in learning and building this project.
